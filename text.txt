@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syd_Nbl - Full Stack Developer</title>
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">Syd<span>Nbl.</span></a>
+            <div class="menu-icon" id="menu-icon">
+                <i class="bx bx-menu"></i>
+            </div>
+            <ul class="navlist" id="navlist">
+                <li><a href="#Home" class="nav-link active">Home</a></li>
+                <li><a href="#About" class="nav-link">About</a></li>
+                <li><a href="#Services" class="nav-link">Services</a></li>
+                <li><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#Contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="top-btn">
+                <a href="#Contact" class="h-btn">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="Home">
+        <div class="hero-container">
+            <div class="main-content fade-in">
+                <h4>Hi, There!</h4>
+                <h1>I'm <span>Syed Nabil</span></h1>
+                <p>Welcome to SydNbl! We are delighted to have you here, exploring a world of development with us. Feel free to navigate through our pages, discover exciting content. Thank you for choosing SydNbl, where <span>"Don't only practice your art, but force your way into its secrets"</span> awaits you.</p>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/nbl_syd?igsh=MWxiN3FvOXBhbm5mbQ==" target="_blank">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://x.com/OnlyYou_14344?t=QDXsBaNSZLEoLF5QstVB5g&s=09" target="_blank">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nabil.syed.967?mibextid=ZbWKwL" target="_blank">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/syed-nabil-b266341bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </div>
+
+                <div class="main-btn">
+                    <a href="#Contact" class="btn">Hire me</a>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="coding">
+                    <a href="#" title="Visual Studio"><i class='bx bxl-visual-studio'></i></a>
+                    <a href="#" title="HTML5"><i class='bx bxl-html5'></i></a>
+                    <a href="#" title="CSS3"><i class='bx bxl-css3'></i></a>
+                    <a href="#" title="Java"><i class='bx bxl-java'></i></a>
+                    <a href="#" title="C++"><i class='bx bxl-c-plus-plus'></i></a>
+                    <a href="#" title="Database"><i class='bx bxs-data'></i></a>
+                    <a href="#" title="Python"><i class='bx bxl-python'></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image fade-in">
+                <div class="hero-avatar">
+                    <i class="ri-code-s-slash-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="About">
+        <div class="container">
+            <h2 class="section-title fade-in">About <span>Me</span></h2>
+            <div class="about-container">
+                <div class="about-image slide-left">
+                    <div class="about-avatar">
+                        <i class="ri-user-3-fill"></i>
+                    </div>
+                </div>
+                <div class="about-text slide-right">
+                    <h2>I am Product <span>Programming</span> <br>& Web/Apps Developer</h2>
+                    <div class="exp-area">
+                        <div class="exp-item">
+                            <div class="exp-label">Experience:</div>
+                            <div class="exp-value">4+ years</div>
+                        </div>
+                        <div class="exp-item">
+                            <div class="exp-label">Specialization:</div>
+                            <div class="exp-value">UI/UX Design, Web/Apps Development & Programming</div>
+                        </div>
+                        <div class="exp-item">
+                            <div class="exp-label">Location:</div>
+                            <div class="exp-value">Selangor, Malaysia</div>
+                        </div>
+                        <div class="exp-item">
+                            <div class="exp-label">Email:</div>
+                            <div class="exp-value">syednabil.0413@gmail.com</div>
+                        </div>
+                        <div class="exp-item">
+                            <div class="exp-label">Phone:</div>
+                            <div class="exp-value">(+60) 115 125 5671</div>
+                        </div>
+                        <div class="exp-item">
+                            <div class="exp-label">Freelance:</div>
+                            <div class="exp-value">Available</div>
+                        </div>
+                    </div>
+                    <a href="#Portfolio" class="btn">View All Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="Services">
+        <div class="container">
+            <h2 class="section-title fade-in">My <span>Services</span></h2>
+            <div class="services-grid">
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="ri-palette-line"></i>
+                    </div>
+                    <h3>Frontend Design</h3>
+                    <p>Crafting streamlined and user-friendly frontend designs to elevate user experiences with modern UI/UX principles.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="ri-smartphone-line"></i>
+                    </div>
+                    <h3>Web/Apps Developer</h3>
+                    <p>Efficiently enhance web and mobile app development through streamlined services and cutting-edge technologies.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="ri-code-line"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>Elevate your software with our Java, C++, and Python programming prowess, delivering concise and impactful solutions.</p>
+                    <a href="#" class="service-link">
+                        Learn More <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="Portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">My <span>Portfolio</span></h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-questionnaire-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Online Quiz Website</h3>
+                        <p class="portfolio-desc">Interactive math quiz website with real-time scoring and user-friendly interface.</p>
+                        <a href="https://github.com/SNFASA/Quiz-math-online-website.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-gift-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Birthday Card Website</h3>
+                        <p class="portfolio-desc">Creative and interactive birthday card website with animations and personalized messages.</p>
+                        <a href="#" class="portfolio-link">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-shield-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Security Testing Website</h3>
+                        <p class="portfolio-desc">Educational cybersecurity project demonstrating web security concepts and vulnerabilities.</p>
+                        <a href="https://github.com/SNFASA/deface.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-java-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Java Programming Collection</h3>
+                        <p class="portfolio-desc">Comprehensive collection of Java programs showcasing various programming concepts and algorithms.</p>
+                        <a href="https://github.com/SNFASA/java_collecton.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-terminal-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">C++ Programming Collection</h3>
+                        <p class="portfolio-desc">Diverse collection of C++ programs demonstrating advanced programming techniques and data structures.</p>
+                        <a href="https://github.com/SNFASA/collection-c-C-.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-calendar-check-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Room Reservation System</h3>
+                        <p class="portfolio-desc">PTTA UTHM room booking system with user authentication and real-time availability tracking.</p>
+                        <a href="https://github.com/SNFASA/Hikmah-and-Ekplorasi-Room-Reservation-System.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-restaurant-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Cafe Management System</h3>
+                        <p class="portfolio-desc">Complete database-driven cafe management system with inventory and order management features.</p>
+                        <a href="https://github.com/SNFASA/project-DB-.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-gamepad-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">TicTacToe Game</h3>
+                        <p class="portfolio-desc">Interactive TicTacToe game with AI opponent and intuitive user interface built with modern frameworks.</p>
+                        <a href="https://github.com/SNFASA/TicTacToeGame.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-global-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">ITC Official Website</h3>
+                        <p class="portfolio-desc">Professional corporate website with responsive design and modern web technologies.</p>
+                        <a href="https://github.com/SNFASA/itcfsktm.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <i class="ri-admin-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">ITC Admin Dashboard</h3>
+                        <p class="portfolio-desc">Comprehensive admin dashboard with content management and analytics features for ITC website.</p>
+                        <a href="https://github.com/SNFASA/media-craft.git" class="portfolio-link" target="_blank">
+                            View Project <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="Contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In <span>Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-form fade-in">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input form-textarea" placeholder="Write your message here..." name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="send-btn">
+                            <i class="ri-send-plane-line"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyright">
+            <p>&copy; 2024 Syed Nabil. All Rights Reserved.</p>
+        </div>
+        <a href="#Home" class="scroll-top" id="scroll-top">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+    </div>
+</body>
+</html>">
