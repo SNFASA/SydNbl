@@ -893,7 +893,7 @@
         .portfolio-image img {
             height: 100%;
             width: auto; /* or 100% if you want full stretch */
-            object-fit: contain; /* this works now */
+            object-fit: cover; /* this works now */
         }
         .portfolio-image::before {
             content: '';
@@ -1186,12 +1186,18 @@
             .contact-form {
                 padding: 2rem;
             }
+            .portfolio-image img {
+                object-fit: contain; 
+            }
         }
 
         @media (max-width: 480px) {
             .hero-avatar {
                 width: 200px;
                 height: 200px;
+            }
+            .portfolio-image img {
+                object-fit: contain; 
             }
 
             .about-avatar {
