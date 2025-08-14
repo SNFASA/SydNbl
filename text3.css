@@ -455,6 +455,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-top: 55px;
+            padding-top: 60px;
         }
 
         .hero-avatar {
@@ -582,6 +584,8 @@
         .about-image {
             display: flex;
             justify-content: center;
+            align-items: center;
+            object-fit: contain;
         }
 
         .about-avatar {
@@ -597,6 +601,13 @@
             transition: all 0.5s ease;
             position: relative;
             overflow: hidden;
+            object-fit: contain;
+        }
+        .about-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block; 
         }
 
         .about-avatar::before {
